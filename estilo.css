@@ -1,0 +1,136 @@
+body{
+    background-image: linear-gradient(to right, #0e719b , #7abddb, #65b4d6,#0e719b);
+}
+#principal{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.secao{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.abas{
+    border: solid rgb(0, 0, 0) 3px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.descontos{
+    width: 250px;
+    margin: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.valores{
+    font-weight: bold;
+}
+
+
+input{
+    width: 120px;
+    margin: 5px;
+    height:23px ;
+    text-align: center;
+    border: solid black 2px;
+    background-color: bisque;
+    background-color: rgb(254, 20, 242);
+    
+    
+}
+.titulovalor {
+    font-weight: 900;
+}
+#custodoconsumidor{
+text-align: center;
+font-weight: 800;
+}
+#tabela-descontos th{
+    background-color: aquamarine;
+}
+#tabela-margens th{
+    background: yellow;
+}
+#tabela-margens-consumidor th{
+    background: rgb(64, 255, 0);
+}
+
+table, td, tr,th{
+    margin-top: 15px;
+    width: 250px;
+    height: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(201, 201, 203);
+    color: #000000;
+}
+.margem-consumidor tr{
+    background-color: greenyellow;
+}
+table{
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 1px 2px 5px 1px black;
+
+}
+
+
+input:hover{
+    background-color: rgb(241, 216, 95);
+}
+.valor-informativo{
+    font-weight: 900;
+}
+
+.titulovaloravulso, .titulomargemavulso, .titulomargemconsumidor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    font-weight: 900;
+}
+
+.titulovaloravulso input{
+    background-color: rgb(41, 255, 187)  ;
+    margin: 0px 15px;
+}
+.titulomargemavulso input{
+    background-color: rgb(250, 243, 37)  ;
+    margin: 0px 15px;
+}
+.titulomargemconsumidor input{
+    background-color: rgb(32, 239, 56)  ;
+    margin: 0px 15px;
+}
+
+
+
+
+
+
+@media (max-width: 516px) {
+    
+    #principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abas {
+        margin: 20px;
+    }
+    .secao{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}

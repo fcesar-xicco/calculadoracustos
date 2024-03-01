@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width   , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <!----------------------------------------------Inicio aba desconto---------------------------------------------->
+    <main id="principal">
+
+        <div class="secao">
+            <h2>Descontos</h2>
+            <div class="abas aba-descontos">
+                <div class="titulovalor">
+                    Valor:
+                    <input type="number" name="" id="valorproduto">
+                </div>
+
+                <table id="tabela-descontos">
+
+                    <tbody>
+                        <tr>
+                            <th>Desconto</th>
+                            <th>Valor</th>
+                            <th>Diferença</th>
+                        </tr>
+                        <!-- vai ser feito os descontos da tabela-->
+                    </tbody>
+
+                </table>
+                <div class="titulovaloravulso">
+                    <span id="porcentagemdesconto">0%</span>
+                    <input type="number" name="" id="valoravulso">
+                    <span>Avulso!</span>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------Final aba desconto---------------------------------------------->
+        <!----------------------------------------------Inicio aba Custos---------------------------------------------->
+        <div class="secao">
+            <h2>Custos</h2>
+            <div class="abas aba-margens">
+                <div class="titulovalor">
+                    Custo:
+                    <input type="number" name="" id="custoproduto">
+                </div>
+
+                <table id="tabela-margens">
+
+                    <tbody>
+                        <tr>
+                            <th>Margem</th>
+                            <th>Valor</th>
+                            <th>Diferença</th>
+                        </tr>
+                        <!-- vai ser feito os descontos da tabela-->
+                    </tbody>
+                </table>
+                <div class="titulomargemavulso">
+                    <span id="porcentagemmargem">0%</span>
+                    <input type="number" name="" id="margemavulsa">
+                    <span>Avulso!</span>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------Final aba Custo---------------------------------------------->
+        <!----------------------------------------------Inicio aba Consumidor---------------------------------------------->
+
+        <div class="secao" >
+            <h2>Custos Consumidor</h2>
+            <div class="abas aba-margens-cons">
+
+                <div class="titulovalor">
+                    Consumidor:
+                    <input type="number" name="" id="custoconsumidor">
+                </div>
+                <div >
+                    <p id="custodoconsumidor">Custo: <span></span></p>
+                        
+                </div>
+
+                <table id="tabela-margens-consumidor">
+
+                    <tbody>
+                        <tr>
+                            <th>Margem</th>
+                            <th>Valor</th>
+                            <th>Diferença</th>
+                        </tr>
+                        <!-- vai ser feito os descontos da tabela-->
+                    </tbody>
+                </table>
+                <div class="titulomargemconsumidor">
+                    <span id="porcentagemmargemconsumidor">0%</span>
+                    <input type="number" name="" id="valormargemconsumidor">
+                    <span>Avulso!</span>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+    <script src="paineldesconto.js"></script>
+    <script src="painelcustos.js"></script>
+    <script src="custoconsumidor.js"></script>
+
+</body>
+
+</html>

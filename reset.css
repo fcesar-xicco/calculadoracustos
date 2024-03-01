@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+td, tr, th {
+    padding: 0; /* Define o padding para zero nas células e cabeçalhos */
+
+}
