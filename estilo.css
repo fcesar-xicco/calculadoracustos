@@ -108,7 +108,7 @@ input:hover{
  /* ----------------------------------- estilo da Aba CUSTO----------------------------------- */
 .titulomargemavulso input{
     background-color: rgb(250, 243, 37)  ;
-    margin: 0px 12px 0px 0px;
+    margin: 0px 07px 4px 0px;
     width: 85px;
 }
 #porcentoavulso{
@@ -120,7 +120,7 @@ input:hover{
 
 .titulomargemconsumidor input{
     background-color: rgb(82, 252, 101)  ;
-    margin: 0px 12px 0px 0px;
+    margin: 0px 07px 4px 0px;
     width: 85px;
 }
 #porcentoConsAvulso{
