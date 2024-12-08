@@ -90,29 +90,46 @@ input:hover{
 }
 
 .titulovaloravulso, .titulomargemavulso, .titulomargemconsumidor{
+    width: 250px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px;
+    margin: 15px 0px;
     font-weight: 900;
 }
-
+ /* --------------------------------- estilo da Aba DESCONTO--------------------------------- */
 .titulovaloravulso input{
     background-color: rgb(41, 255, 187)  ;
-    margin: 0px 15px;
+    margin: 0px
 }
+
+ /* ----------------------------------- estilo da Aba CUSTO----------------------------------- */
 .titulomargemavulso input{
     background-color: rgb(250, 243, 37)  ;
-    margin: 0px 15px;
+    margin: 0px 12px 0px 0px;
+    width: 90px;
 }
+#porcentoavulso{
+    background-color: rgb(195, 188, 8)  ;
+}
+
+
+/* ----------------------------------- estilo da Aba CONSUMIDOR----------------------------------- */
+
 .titulomargemconsumidor input{
-    background-color: rgb(32, 239, 56)  ;
-    margin: 0px 15px;
+    background-color: rgb(82, 252, 101)  ;
+    margin: 0px 12px 0px 0px;
+    width: 90px;
+}
+#porcentoConsAvulso{
+    background-color: rgb(18, 192, 38)  ;
 }
 
 
 
-
+.info{
+width:85px ;
+    font-size: 16px;
+    font-weight: 800;
+ }
 
 
 @media (max-width: 516px) {
